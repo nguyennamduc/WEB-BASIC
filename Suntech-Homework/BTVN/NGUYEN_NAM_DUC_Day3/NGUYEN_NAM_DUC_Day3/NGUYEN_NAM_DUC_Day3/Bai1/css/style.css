@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #1c1b1b;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.content
+{
+width: 1262px;  
+margin: auto;
+}
+.head
+{
+
+height: 143px;
+display: flex;
+justify-content: space-between;
+}
+
+.logo{
+    width:55%;
+    align-items: center;
+    padding: 5px 0px 5px 220px ;
+}
+
+.list
+{
+    width: 45%;
+   text-align: right;
+
+}
+.list ul{
+    list-style: none;
+}
+.list ul li{
+    list-style: none;
+    display:inline-block;
+    margin-right: 30px;
+    padding-top: 65px;
+    padding-right: 50px;
+    
+}
+.list ul li a{
+text-transform: uppercase;
+text-decoration: none;
+font-weight: 600;
+color: teal;
+}
+
+.list ul li a:hover{
+    color: crimson;
+}
+    
+.logo-text
+{
+   padding: 0px 10px 50px 10px;
+    width: 302px;
+    
+}
+.logo-stabuct{
+
+    width: 134px;
+
+    
+}
+.banner img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu table
+{
+    text-align: center;
+    margin: auto;
+
+  
+}
+td{
+    padding: 15px 5px;
+}
+.footer{
+    height: 80px;
+    color: white;
+    background-color: teal;
+    text-align: center;
+    padding-top: 30px;
+}

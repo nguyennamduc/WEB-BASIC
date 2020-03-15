@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: white;
+}
+.contain{
+
+    width: 1262px;  
+    margin: auto;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.logo
+{
+    width: 40%;
+    text-align: right;
+    padding:10px 0 20px 10px;
+}
+.logo h1{
+    text-transform: uppercase;
+    padding-right: 160px;
+}
+.logo h1 strong
+{
+    color: salmon;
+}
+.list-menu
+{
+width: 60%;
+padding: 20px 10px 20px 0px;
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.list-menu ul{
+    list-style: none;
+
+}
+.list-menu ul li{
+
+    display: inline-block;
+    list-style: none;
+    margin:0px 1px 0px 20px;
+   
+
+}
+.list-menu ul li a{
+    text-decoration: none;
+
+}
+.list-menu .btn
+{
+margin: 120px;
+background-color: tomato;
+color: #ffffff;
+padding: 5px 10px;
+border-radius: 10px;    
+}
+.list-menu .btn:hover
+{
+    background-color: blue;
+
+}
+.banner
+{
+    background: url("../images/banner.jpg");
+    background-size: 1262px;  
+    height: 492px;
+    max-width:1262px; 
+    margin: 0 auto;
+    display: block;
+    
+}
+.banner .text
+{
+    position: relative;
+    top: 100px;
+    left: 250px;
+
+}
+.banner .text h2{
+   
+    border-width: 600;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.banner .text p{
+width: 380px;
+padding-bottom: 20px;
+color: dimgray
+
+}
+.banner .text input
+{
+    background-color: black;
+    color: #ffffff;
+    padding: 5px 10px;
+    box-shadow:5px 5px black;
+
+}
+.main
+{
+    width: 1262px;  
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ads
+{
+    width: 300px;
+   
+    
+}
+.ads a img{
+    width: 200px;
+    padding-top: 20x;
+
+}
+.ads .text {
+  
+    margin: 33px 0px 10px 50px;
+    padding-left: 70px;
+    width: 50px;
+    height: 30px;
+    
+
+}
+.ads .text p{
+    background: orangered;
+    color:#ffffff;
+    position: absolute;
+    top: 645px;
+    width: 20px;
+    left: 520px;
+    border-radius: 50%;
+    text-align: center;
+   
+
+}
+
+.main-production
+{
+    width: 662px;
+}
+  
+.main-production ul
+{
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 162px 162px 162px 162px;
+    grid-template-rows: 60px 60px ;
+    list-style: none;  
+}
+.main-production ul li{
+    padding-right: 30px;
+}
+.main-production ul li img
+{
+  
+    width: 180px;
+    padding-right: 40px;
+}
+.main-production ul li h6
+{
+    text-align: center;
+    font-size: 15px;
+
+}
+.main-production ul li p{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+}
